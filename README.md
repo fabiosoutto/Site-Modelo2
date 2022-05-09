@@ -1,6 +1,8 @@
 # Site-Modelo2
 
-Site desenvolvido em HTML5, CSS3 e Javascript para ser usado para uma empresa apresentando produtos ou serviços.
+Site empresarial apresentando produtos ou serviços.
+
+Possui slider, galeria de fotos, galeria de vídeos e formuláriio de contato para receber os leads.
 
 Todo o site é responsivo e customizável para atender aos mais variados negócios.
 
