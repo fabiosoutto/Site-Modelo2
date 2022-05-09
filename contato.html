@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Contato | Site Modelo 2</title>
+	<meta charset="utf-8">
+	<link rel="icon" href="imagens/favicon.ico" type="image/x-icon" />
+	<meta name="description" content="Site pronto para venda.">
+	<meta name="keywords" content="palavras,separadas,por,virgula">
+	<meta name="author" content="Fabio Soutto Desenvolvedor Web" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<section class="topo">
+	<div class="center">
+		<header>
+			<div class="logo"><img src="imagens/FSDev-logo.png" /></div><!--logo-->
+		</header>
+	 		<ul class="menu-desktop">
+				<li><a href="index.html">Início</a></li>
+				<li><a href="sobre.html">Sobre nós</a></li>
+				<li><a href="contato.html">Contato</a></li>
+			</ul>
+			<div class="menu-mobile">
+			<i class="fas fa-align-right"></i>
+				<ul>
+					<li><a href="index.html">Início</a></li>
+				<li><a href="sobre.html">Sobre nós</a></li>
+				<li><a href="contato.html">Contato</a></li>
+				</ul>
+			</div><!--menu-mobile-->
+			<div class="clear"></div>
+	</div><!--center-->
+</section><!--topo-->
+
+<section class="contato">
+	<div class="center">
+		<div class="w50 contato-info">
+			<h2>Solicite um orçamento.<br/>
+			 Teremos o maior prazer em ajudar.</h2>
+			 <br/><br/>
+			 <p>Tel. Fixo: (51) 3339-4433</p>
+			 <p>Celular: (51) 9988 77 666</p>
+			 <p>Av Developer, 123 sl/456 - Bairro WebDev / Porto Alegre RS.</p>
+
+		<div class="mapa-container">
+			<div id="mapa"></div>
+		</div><!--mapa-container-->	 
+		</div><!--w50 contato-info-->
+	<div class="w50 contato-form">
+		<form>
+			<input required placeholder="Seu nome:" type="text" />
+			<input required placeholder="Seu telefone:" type="text" />
+			<input required placeholder="Seu email:" type="text" />
+			<select>
+				<option>Orçamentos</option>
+				<option>Administrativo</option>
+				<option>Suporte</option>
+				<option>SAC</option>
+			</select>
+			<textarea required placeholder="Sua mensagem:"></textarea>
+			<input type="submit" value="Enviar" />
+		</form>
+	</div><!--w50 contato-form-->
+		<div class="clear"></div>
+	</div><!--center-->
+</section>
+
+
+<footer>
+	<div class="container">
+		<p>® 2022 | Nome da sua empresa</p>
+		<p>"seu slogan aqui!"</p>
+		<div class="clear"></div>
+	</div><!--container-->
+</footer>
+
+<!-------------------------------- SEÇÃO MARCA-->
+<section class="marca">
+	<a href="https://fabiosouttodev.vercel.app/" target="_blank"><h2>Fabio Soutto Dev - "In code we trust"</h2></a>
+</section><!---------------------------------marca-->
+
+<script src="js/jquery.js"></script>
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyC7MTAqHK4-7nvyjJCmUyYeb_KVLfjbz1I'></script>
+<script src="js/map.js"></script>
+<script>
+	//Menu responsivo.
+	$('.menu-mobile i').click(function(){
+		$('.menu-mobile').find('ul').slideToggle();
+	})
+</script>
+
+</body>
+</html>

@@ -1,0 +1,614 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*====================fim do reset padrão */
+
+
+/*===============classes auxiliares======*/
+
+.center{
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 2%;
+}
+
+.center h1{
+	text-align: center;
+	font-size: 17px;
+	margin: 10px 20px;
+	padding: 0 2%;
+}
+
+.clear{
+	clear: both;
+}
+
+.w50{
+	float: left;
+	width: 50%;
+}
+
+/*=====================end aux. classes====*/
+
+.menu-mobile{
+	display: none;
+}
+
+.menu-mobile{
+	float: right;
+}
+
+.menu-mobile i{
+	font-size: 33px;
+	color: white;
+	cursor: pointer;
+}
+
+.menu-mobile ul{
+	left: 0;
+	top: 77px;
+	display: none;
+	width: 100%;
+	position: absolute;
+	list-style-type: none;
+}
+
+.menu-mobile li{
+	padding: 8px 0;
+	text-align: center;
+	display: block;
+	width: 100%;
+	background: white;
+	border-bottom: 1px solid #00f9f7;
+}
+
+.menu-mobile a{
+	display: block;
+	text-decoration: none;
+	color: #202020;
+}
+
+section.topo{
+	background-image: linear-gradient(114deg, #250e8a, #00f9f7);
+	padding-top: 40px;
+	padding-bottom: 80px;
+}
+
+.logo{
+	float: left;
+}
+
+.menu-desktop{
+	float: right;
+}
+
+.menu-desktop li{
+	display: inline-block;
+	margin: 0 15px;
+}
+
+.menu-desktop a{
+	text-decoration: none;
+	color: #000033;
+	opacity: 0.6;
+}
+
+.menu-desktop a:hover{
+	color: white;
+}
+
+.banner-descricao{
+	color: white;
+	margin-top: 50px;
+}
+
+.banner-descricao h2{
+	font-size: 43px;
+}
+
+.banner-descricao p{
+	font-size: 17px;
+	margin-top: 10px;
+	max-width: 240px;
+}
+
+.banner-descricao a{
+	display: inline-block;
+	margin-top: 14px;
+	padding: 10px 8px;
+	font-weight: bold;
+	border-radius: 8px;
+	text-decoration: none;
+	color: #1b49a5;
+	background: #ffca00;
+	box-shadow: 0 20px 30px 0 rgba(37,15,138,0.2);
+}
+
+.banner-descricao a:hover{
+	color: white;
+	background: #284781;
+}
+
+.banner-imagem img{
+	max-width: 100%;
+}
+
+/*==============ícone circular==========*/
+/*====não esqueça de setar META fontawesome===*/
+
+.circle{
+	position: absolute;
+	left: 50%;
+	margin-top:-20px;
+	transform: translateX(-50%);
+   	width: 70px;
+  	height: 70px;
+  	text-align: center;
+  	line-height: 70px;
+  	border-radius: 50%;
+  	background-color: #ffffff;
+  	box-shadow: 0 10px 25px 0 rgba(37, 15, 139, 0.1);
+}
+
+.circle i{
+	position: relative;
+	top: 5px;
+	font-size: 30px;
+	color:#1c4aa6;
+}
+
+/* ====setando tamanho das imagens do slider===*/
+
+section.clientes-slider{
+	padding: 60px 0;
+}
+
+section.clientes-slider img{
+	max-width: 100%;
+}
+
+/*===========================SLICK SLIDER============*/
+
+.slick-dotted ul{
+	list-style-type: none;
+	text-align: center;
+	position: relative;
+	margin-top:10px;
+}
+
+.slick-dotted li{
+	display: inline-block;
+	margin: 0 7px;
+}
+
+.slick-dotted button:focus{
+	outline: 0;
+}
+
+.slick-dotted li button{
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	color: #d8d8d8;
+	border-width: 0;
+	background: #d8d8d8;
+	opacity: 1;
+	cursor: pointer;
+}
+
+li.slick-active button{
+	background: #0c3f8a;
+	color: #0c3f8a;
+}
+
+.slick-slide:focus { outline: none; }
+
+/*===============================seção diferenciais====*/
+
+section.diferenciais{
+	padding: 30px 0;
+}
+
+section.diferenciais h2{
+	color: #202020;
+	font-size: 30px;
+	font-weight: normal;
+	text-align: center;
+}
+
+.icons-diferenciais{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 60px;
+
+}
+
+.box-single-diferenciais{
+	text-align: center;
+	width: 33.3%;
+	padding: 0 10px;
+	margin-bottom: 30px;
+}
+
+.box-single-diferenciais img{
+	max-width: 100%;
+}
+
+.box-single-diferenciais h3{
+	font-size: 18px;
+	margin: 10px 0;
+	color: #202020;
+}
+
+.box-single-diferenciais p{
+	font-size: 15px;
+	color: #202020;
+}
+
+/*======================seção sobre o time======*/
+
+section.sobre-time{
+	padding: 40px 0;
+	background-color: #f4f9fd;
+}
+
+.img-time{
+	max-width: 100%;
+}
+
+.time-descricao2{
+	padding: 0 20px;
+}
+
+.time-descricao2 h2{
+	color: #202020;
+	line-height: 35px;
+	font-size: 24px;
+	margin-bottom: 25px;
+}
+
+.time-descricao2 p{
+	color: #272727;
+	padding-right: 20px;
+	font-size: 17px;
+}
+
+/*=================================seção DEPOIMENTOS===*/
+
+section.depoimentos{
+	padding: 80px 0;
+	background-color: #23188f;
+}
+
+section.depoimentos h2{
+	text-align: center;
+	color: white;
+	font-weight: normal;
+	font-size: 30px;
+}
+
+.depoimentos-box{
+	overflow: hidden;
+	margin: 10px auto;
+	color: white;
+	width: 100%;
+	max-width: 600px;
+	display: block;
+}
+
+.depoimento-single{
+	width: 100%;
+	display: inline-block;
+}
+
+.depoimento-single p{
+	text-align: center;
+	margin-bottom: 15px;
+	color: white;
+}
+
+.depoimento-single img{
+	width: 70px;
+	height: 70px;
+	display: block;
+	margin: 10px auto;
+	border-radius: 50%; 
+}
+
+/*===================seção (BOX SHADOW) METODOLOGIA===*/
+
+section.metodologia{
+	position: absolute;/*(relative,joga o conteúdo por cima*/
+	z-index: 10;/*joga o conteúdo por cima*/
+	top: -60px;/*joga o conteúdo por cima*/
+	left: 50%;/*--ajuste para o box shadow--*/
+	width: 100%;/*--ajuste para o box shadow--*/
+	transform: translateX(-50%);/*--ajuste para o box shadow--*/
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 40px 0;
+	background: white;
+	border-top: 3 px solid #ffca00;
+	box-shadow: 10px 20px 60px 0 rgba(0,0,0,0,0.06);
+	text-align: center;
+}
+
+section.metodologia h2{
+	color: #232931;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+section.metodologia p{
+	color: #b4b4b4;
+	font-size: 14px;
+	margin: 15px 0;
+}
+
+section.metodologia a{
+	text-decoration: none;
+	color: white;
+	padding: 8px 15px;
+	background-color: #23188f;
+	border-radius: 5px;
+	font-size: 14px;
+	display: inline-block;
+	margin-top: 8px;
+}
+
+/*==================================PÁGINA SOBRE========*/
+
+section.sobre-equipe{
+	padding: 40px 0;
+}
+
+.equipe-sobre-texto h2{
+	font-size: 45px;
+	color: #202020;
+	padding: 0 10px;
+	margin-bottom: 30px;
+}
+
+.equipe-sobre-texto p{
+	font-size: 18px;
+	color: #202020;
+	line-height: 24px;
+	padding: 0 20px;
+	text-align: justify;
+}
+
+section.sobre-equipe img{
+	max-width: 100%;
+}
+
+/*=============PÁGINA SOBRE / seção galeria========*/
+
+#galery h1{
+	font-size: 35px;
+	color: #202020;
+	padding: 0 10px;
+	margin-bottom: 20px;
+	padding-left: 170px;
+}
+
+/* ------ Owl Carousel ------ */
+
+.box-movie{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carousel-movie{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/*==================================seção videos===========*/
+
+section.videos{
+	padding: 20px 0;
+}
+
+section.videos .box-video{
+	float: left;
+	width: 33.3%;
+	position: relative;
+	border: 5px solid white;
+	padding-top: calc(33.3% * 0.6);
+}
+
+section.videos iframe{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*===============================PÁGINA CONTATO========*/
+
+section.contato{
+	padding: 40px 0;
+}
+
+.contato-info h2{
+	color: #202020;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.contato-info p{
+	color: #202020;
+	font-size: 15px;
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+
+.mapa-container{
+	width: 100%;
+	padding-top: 60%;
+	position: relative;
+}
+
+div#mapa{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: gray;
+}
+
+.contato-form{
+	padding: 0 30px;
+	margin-top: 27px;
+}
+
+.contato-form input[type=text]{
+	width: 100%;
+	height: 48px;
+	margin-bottom: 15px;
+	border: 1px solid #e3e3e3;
+	padding-left: 8px;
+	font-size: 16px;
+	box-shadow: 10px 20px 60px 0 rgba(0,0,0,0,0.06);
+}
+
+.contato-form select{
+	width: 100%;
+	height: 48px;
+	margin-bottom: 15px;
+	border: 1px solid #e3e3e3;
+	padding-left: 8px;
+	font-size: 16px;
+	box-shadow: 10px 20px 60px 0 rgba(0,0,0,0,0.06);
+}
+
+.contato-form textarea{
+	width: 100%;
+	height: 120px;
+	margin-bottom: 15px;
+	border: 1px solid #e3e3e3;
+	padding: 8px;
+	font-size: 16px;
+	resize: none;
+	box-shadow: 10px 20px 60px 0 rgba(0,0,0,0,0.06);
+}
+
+.contato-form input[type=submit]{
+	width: 100%;
+	height: 50px;
+	border-radius: 5px;
+	box-shadow: 0px 20px 30px 0 rgba(203,203,203,0.2);
+	border: 0;
+	cursor: pointer;
+	background-color: #212a97;
+	color: white;
+	font-size: 17px;
+}
+
+
+/*=======================================FOOTER========*/
+
+footer{
+	padding: 40px 2%;
+	color: white;
+	background: #1e3b9f;
+}
+
+footer p:nth-of-type(1){
+	float: left;
+	font-size: 16px;
+}
+
+footer p:nth-of-type(2){
+	float: right;
+	font-size: 16px;
+}
+
+section.marca{
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	background: #23188f;	
+}
+
+section.marca h2{
+	font-size: 12px;
+	color: white;
+	display: inline-block;
+	padding-top: 10px 0;
+	font-weight: lighter;
+}
+
+/*=================================MEDIA QUERIES========*/
+
+@media screen and (max-width: 768px){
+	.w50{
+		width: 100%;
+	}
+
+	.w50 img{
+		width: 440px;
+		
+	}
+
+	.box-single-diferenciais{
+		width: 100%;
+	}
+
+	.menu-desktop{
+		display: none;
+	}
+
+	.menu-mobile{
+		display: block;
+	}
+
+	.img-time{
+		margin-top: 20px;
+		max-width: 30%;
+	}
+
+	.col-footer{
+		width: 100% !important;
+		text-align: center !important;
+		margin-bottom: 20px;
+	}
+
+	/*====================página sobre */
+
+	section.sobre-equipe img{
+		margin-top: 20px;
+	}
+
+	#galery h1{
+		padding-left: 120px;
+	}
+
+	.sobre-galeria .img-sobre{
+		padding: 0 20px;
+		width: 50%;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	#videos{
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	section.videos .box-video{
+		display: block;
+		width: 100%;
+		height: auto;
+		padding-top: calc(100% * 0.6);
+	}
+	
+}
